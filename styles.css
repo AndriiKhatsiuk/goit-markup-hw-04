@@ -203,6 +203,23 @@ background-color: var(--main-white-color);
     color: var(--main-dark-color);
 }
 
+.team-soc-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.team-soc-item {
+    width: 40px;
+    height: 40px;
+}
+.team-soc-link {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+
   /* products */
 
 .products {
@@ -264,6 +281,7 @@ background-color: var(--main-white-color);
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--main-dark-color);
+    margin-bottom: 8px;
 }
 
 .team-space {
