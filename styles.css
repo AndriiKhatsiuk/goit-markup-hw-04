@@ -20,6 +20,8 @@ ul {
 
 img {
     display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 .list {
@@ -383,6 +385,7 @@ background-color: var(--main-white-color);
     color: var(--main-white-color);
 }
 .portfolio-product-item {
+    width: 360px;
     border: 1px solid var(--dark-light-color);
 }
 .portfolio-product-item-header {
