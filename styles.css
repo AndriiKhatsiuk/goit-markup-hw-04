@@ -340,23 +340,20 @@ background-color: var(--main-white-color);
 
 .customers-icon-list {
     display: flex;
-    column-gap: 24px;
+    justify-content: center;
 }
 
 .customers-icon-item {
-    
-}
-
-.customers-icon-link{
-    display: flex;
-    justify-content: center;
-    border: 1px solid#8e8f99;
-    fill: #8e8f99;
+    box-sizing: border-box;
+    border: 1px solid #8e8f99;
     border-radius: 4px;
-    width: 168px;
-    height: 88px;
+    padding: 16px 32px;
+    margin-right: 24px;
 }
 
+.customers-icon-link {
+    display: block;
+}
 
 .customers-icon-link:hover,
 .customers-icon-link:focus{
