@@ -131,7 +131,7 @@ background-color: var(--main-white-color);
 /* main */
 
 .main {
-    background-color: var(--main-dark-color);
+    background-image: linear-gradient (gba(46, 47, 66, 0.7);) , url(./images/background-header.jpg);
     padding-top: 188px;
     padding-bottom: 188px;
 }
