@@ -331,7 +331,7 @@ background-color: var(--main-white-color);
 }
 
 .team-soc-link:is(:hover, :focus) {
-    background-color: #404BBF;
+    background-color: var(--focus-and-hover-color);
 }
 
 
@@ -351,15 +351,22 @@ background-color: var(--main-white-color);
 }
 
 .customers-icon-item {
+    width: 168px;
+    height: 88px;
+
+}
+
+.customers-icon-link {
+    width: 100%;
+    height: 100%;
+    display: flex;
     box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
     border: 1px solid #8e8f99;
     border-radius: 4px;
     padding: 16px 32px;
     margin-right: 24px;
-}
-
-.customers-icon-link {
-    display: block;
 }
 
 .customers-icon-link:hover,
@@ -367,9 +374,9 @@ background-color: var(--main-white-color);
     border-color: #404bbf;
 }
 
-.customers-icon-link:hover .team-soc-icon,
-.customers-icon-link:focus .team-soc-icon {
-    fill: #404bbf;
+.customers-icon-link:hover ,
+.customers-icon-link:focus {
+    fill: var(--focus-and-hover-color);
 }
 
 
