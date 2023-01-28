@@ -132,6 +132,9 @@ background-color: var(--main-white-color);
 .main {
     background-image:linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)) , url(./images/background-header.jpg);
     background-repeat: no-repeat;
+    width: 1440px;
+    height: 600px;
+    margin: 0 auto;
     background-size:cover;
     padding-top: 188px;
     padding-bottom: 188px;
@@ -162,7 +165,6 @@ background-color: var(--main-white-color);
     margin-right: auto;
     min-width: 169px;
     min-height: 56px;
-    gap: 10px;
 }
 .main-btn:focus,
 .main-btn:hover {
@@ -328,10 +330,10 @@ background-color: var(--main-white-color);
     fill: var(--light-color);
 }
 
-.team-soc-link:hover,
-.team-soc-link:focus{
-    border-color: var(--focus-and-hover-color);
+.team-soc-link:is(:hover, :focus) {
+    background-color: #404BBF;
 }
+
 
 /* CUSTOMERS */
 .customers {
