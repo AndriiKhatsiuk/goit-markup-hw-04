@@ -376,12 +376,12 @@ background-color: var(--main-white-color);
 
 .customers-icon-link:hover,
 .customers-icon-link:focus{
-    border-color: var(--focus-and-hover-color)
+    border-color: var(--focus-and-hover-color);
 }
 
 .customers-icon:hover ,
 .customers-icon:focus {
-    fill: currentColor;
+    fill: var(--focus-and-hover-color);
 }
 
 
@@ -469,8 +469,8 @@ background-color: var(--main-white-color);
     fill: var(--light-color);
 }
 
-.team-soc-link:is(:hover, :focus) {
-    background-color: var(--focus-and-hover-color);
+.social-media-item:is(:hover, :focus) {
+    background-color: #31D0AA;
 }
 /* portfolio */
 .portfolio{
@@ -522,6 +522,7 @@ background-color: var(--main-white-color);
     color: var(--main-white-color);
 }
 .portfolio-product-item {
+    background: box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);;
     width: 360px;
 }
 .portfolio-product-item-header {
