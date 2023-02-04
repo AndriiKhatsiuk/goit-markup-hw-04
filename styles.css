@@ -359,7 +359,7 @@ background-color: var(--main-white-color);
 }
 
 .customers-icon {
-    border-color: #AFB1B8;
+    fill: #AFB1B8;
 }
 
 .customers-icon-link{
@@ -524,23 +524,17 @@ color: #F4F4FD;
     cursor: pointer;
 }
 
-.portfolio-buttons-item-btn:hover,
-.portfolio-buttons-item-btn:focus {
-    border: 1px solid var(--light-color);
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-}
-.portfolio-product-item {
-    background-color: var(--main-white-color);
-    box-sizing: border-box;
-    width: calc((100% - 48px) / 3);
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
-}
-
-.portfolio-product-item :hover,
-.portfolio-product-item :focus {
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-}
+    .porftolio-product-box:hover,
+    .porftolio-product-box:focus {
+        box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+        border: 1px solid var(--light-color);
+    }
+    
+    .porftolio-product-box :hover,
+    .porftolio-product-box :focus {
+        box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    }
 
 .portfolio-product-item-header {
     margin-bottom: 8px;
