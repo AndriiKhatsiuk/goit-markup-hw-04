@@ -380,7 +380,7 @@ background-color: var(--main-white-color);
     border-color: var(--focus-and-hover-color);
 }
 
-.customers-icon:hover ,
+.customers-icon:hover,
 .customers-icon:focus {
     fill: var(--focus-and-hover-color);
 }
@@ -482,7 +482,7 @@ color: #F4F4FD;
     fill: var(--light-color);
 }
 
-.social-media-item:is(:hover, :focus) {
+.social-media-link:is(:hover, :focus) {
     background-color: #31D0AA;
 }
 /* portfolio */
