@@ -358,9 +358,8 @@ background-color: var(--main-white-color);
     justify-content: center;
 }
 
-.customers-icon-item {
-
-
+.customers-icon {
+    border-color: #AFB1B8;
 }
 
 .customers-icon-link{
@@ -375,15 +374,15 @@ background-color: var(--main-white-color);
     padding: 16px 32px;
 }
 
-.customers-icon-link:hover,
+.customers-icon-link:hover, 
 .customers-icon-link:focus{
     border-color: var(--focus-and-hover-color);
 }
-
-.customers-icon:hover,
-.customers-icon:focus {
+.customers-icon-link:hover .customers-icon,
+.customers-icon-link:focus .customers-icon{
     fill: var(--focus-and-hover-color);
 }
+
 
 
 .customers-icon-item:last-child {
